@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+/*/////////////////////////////////////////////////////////////body////////////////////////////////////////////*/
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+/*//////////////////////////////////////////////////////////section de la page//////////////////////////////////*/
+section{
+  height: 100vh;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+/*/////////////////////////////////*/
+h1{
+  font-size: 3rem;
+  text-shadow: 5px, 5px, 4px, #bbb;
+  margin: 0;
+  display: flex;
+
+
+}
+/*menu principal du site.
+ on utilise un positionement 
+ fixe pour que le menu reste 
+ en haut de chacune des sections*/
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: black;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 4px 1rem;
+
+}
+#accueil{
+  background-color: blanchedalmond;
+  color: rgb(227, 171, 171);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: space-around;
+}
+#inscription{
+  background-color: rgb(253, 237, 217);
+  color: white;
+}
+#galerie{
+  background-color: bisque;
+  color: white;
+}
+#evenement{
+  background-color: beige;
+  color: white;
+}
+#video{
+  background-color: burlywood;
+  color: white;
+}
+#footer{
+  background-color: black;
+  color: white;
+}
+
+
