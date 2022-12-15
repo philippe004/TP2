@@ -6,4 +6,4 @@
 
 date de remise: le dernier jour de la semaine #15
 
-Github-page: https://github.com/philippe004/1w1
+Github-page : https://philippe004.github.io/TP2/
