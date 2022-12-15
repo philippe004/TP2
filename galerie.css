@@ -1,0 +1,14 @@
+#galerie {
+}
+.fig__galerie {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.fig__galerie figure {
+  flex: 0 1 150px;
+  filter: blur(20px);
+}
+.fig__galerie figure:nth-of-type(1) {
+  transform: rotate(5deg);
+}

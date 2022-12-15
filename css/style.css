@@ -6,28 +6,31 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
-/*//////////////////////////////////////////////////////////section de la page//////////////////////////////////*/
-section{
-  height: 100vh;
+/*/ /////////////////////////////////////////////////////////section de la page//////////////////////////////////*/
+section {
+  min-height: 100vh;
   margin: 0;
   justify-content: center;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 /*/////////////////////////////////*/
 h1{
   font-size: 3rem;
-  text-shadow: 5px, 5px, 4px, #bbb;
+  text-shadow: 5px, 5px, 4px, rgb(255, 255, 255);
   margin: 0;
   display: flex;
-
-
+  font-size: clamp( 3rem,);
 }
 /*menu principal du site.
  on utilise un positionement 
  fixe pour que le menu reste 
  en haut de chacune des sections*/
-nav{
+ p{
+  font-family: ea;
+ }
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -37,38 +40,56 @@ nav{
   background-color: black;
 }
 nav a {
-  color: white;
+  color: rgb(255,234,128);;
   text-decoration: none;
   padding: 4px 1rem;
-
 }
-#accueil{
-  background-color: blanchedalmond;
-  color: rgb(227, 171, 171);
+
+#accueil {
+ font-family: EASPORTS15 ;
+  background-color:rgb(255,234,128);
+  color: rgb(52, 63, 216);
   display: flex;
   flex-direction: column;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../images/futbol.jpg");
+    background-size: 100%;
   justify-content: space-around;
+  background-repeat: no-repeat;
 }
-#inscription{
-  background-color: rgb(253, 237, 217);
+#inscription {
+  background-color: rgb(231, 221, 171);
   color: white;
 }
-#galerie{
-  background-color: bisque;
+#galerie {
+  background-color: rgb(231, 205, 171);
   color: white;
 }
-#evenement{
-  background-color: beige;
+
+#tableau{
+  background-color: rgb(224, 185, 136);
+  color: white;
+  
+}
+#evenement {
+  background-color:rgb(194, 172, 143);
   color: white;
 }
-#video{
+#video {
   background-color: burlywood;
   color: white;
 }
-#footer{
+#footer {
   background-color: black;
   color: white;
 }
 
 
+table,
+th,
+td {
+  border: 1px solid;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
