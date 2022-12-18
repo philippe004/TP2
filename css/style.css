@@ -21,7 +21,7 @@ h1{
   text-shadow: 5px, 5px, 4px, rgb(255, 255, 255);
   margin: 0;
   display: flex;
-  font-size: clamp( 3rem,);
+  font-size: clamp( 3rem, 2.6rem + 2vw, 5rem);
 }
 /*menu principal du site.
  on utilise un positionement 
@@ -45,43 +45,10 @@ nav a {
   padding: 4px 1rem;
 }
 
-#accueil {
- font-family: EASPORTS15 ;
-  background-color:rgb(255,234,128);
-  color: rgb(52, 63, 216);
-  display: flex;
-  flex-direction: column;
-    background-image: url("../images/futbol.jpg");
-    background-size: 100%;
-  justify-content: space-around;
-  background-repeat: no-repeat;
-}
-#inscription {
-  background-color: rgb(231, 221, 171);
-  color: white;
-}
-#galerie {
-  background-color: rgb(231, 205, 171);
-  color: white;
-}
 
-#tableau{
-  background-color: rgb(224, 185, 136);
-  color: white;
-  
-}
-#evenement {
-  background-color:rgb(194, 172, 143);
-  color: white;
-}
-#video {
-  background-color: burlywood;
-  color: white;
-}
-#footer {
-  background-color: black;
-  color: white;
-}
+#aricle {
+  background-color: rgb(12,27,107);
+   color: white;}
 
 
 table,
@@ -93,3 +60,61 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+/* menu du site*/
+.menu{
+  position: fixed;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.menu a:hover{
+  background-color: rgb(5, 10,34);;
+  transform: scale(1.2);
+  transition: transform 0.5;
+}
+.menu a{
+  font-size: 1.2rem;
+  padding: 13px;
+  color: rgb(210, 181, 123);
+  display: block;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#aricle {
+  background-color: rgb(12,27,107);
+   color: white;}
+   .youtube {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;     
+  }
+  #video {
+    background-color:rgb(5, 10,34);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     
+  } 
+  .fig__galerie :hover{
+    background-color: rgb(5, 10,34);;
+    transform: scale(1.2);
+    transition: transform 0.5;
+  }
+  .fig__galerie {
+    font-size: 1.2rem;
+    padding: 13px;
+    color: rgb(210, 181, 123);
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  #chk-burger:checked ~ .nom {
+    transform: translateX(0);
+    /* background-color: red; */
+  }
+  

@@ -1,0 +1,22 @@
+#galerie {
+  background-image: url("../images/01.jpg");
+}
+.fig__galerie {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+#galerie {
+  background-color: rgb(210, 181, 123);
+  color: white;
+}
+/*.fig__galerie figure {
+  flex: 0 1 150px;
+  filter: blur(20px);
+}*/
+/*.fig__galerie figure:nth-of-type(1) {
+  transform: rotate(5deg);
+}*/
+

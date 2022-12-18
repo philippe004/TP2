@@ -6,30 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tp2-etape-1</title>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/#tableau.css" />
-    <link rel="stylesheet" href="formulaire.css" />
-    <link rel="stylesheet" href="css/#video.css" />
+   <link rel="stylesheet" href="css/tableau.css">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/galerie.css" />
+    <link rel="stylesheet" href="css/galerie.css"/>
+    <link rel="stylesheet" href="css/inscription.css"/>
+    <link rel="stylesheet" href="css/article.css"/>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/video.css">
+    
   </head>
+  <!------------------------------------tete de page----------------------------------->
   <body>
-    <nav>
+    <nav class="menu">
       <a href="#accueil">accueil</a>
       <a href="#inscription">inscription</a>
       <a href="#galerie">galerie</a>
       <a href="#Tableau">Tableau</a>  
-       <a href="#evenement">evenement</a>
+       <a href="#article">article</a>
        <a href="#video">video</a>
        <a href="#footer">footer</a>
     </nav>
 
+   
+<!------------------------accueil----------------------------->
     <section id="accueil">
       <h1>LA COUPE DU MONDE</h1>
      
       <h3>AUTEUR: LOUIS-PHILIPPE-FILS</h3>
       <p>
         le sport le plus écouter et jouer de l'histoire de l'humanité sur tout pendant la coupe du monde 
-        
+        <!-------------------------------------- github--------------------------------------------->
       </p> 
       <a href="https://philippe004.github.io/TP2/">github-page</a>
       <h2>1W1-mise en page web - techniques d'integagration multimedia - college
@@ -40,17 +47,21 @@
     <section id="inscription">
       <h1>inscription</h1>
       <form class="formulaire">
-        <label for="">votre prenom</label>
+        <label for="prenom">votre prenom</label>
         <input type="text" name="txt_prenom" id="txt_prenom" />
-        <label for="">votre nom</label>
+        <label for="nom">votre nom</label>
         <input type="text" name="txt_nom" id="txt_nom" />
+
+        <label for="email">address email</label>
+        <input type="text" name="txt_address email" id="txt" />
+        <label for="tele">numero téléphone</label>
+        <input type="text" name="txt_numero téléphone" id="txt_" />
         <!----------------------------------checkbox---------------------------------------->
         <div class="langage">
-          <p>identifier les langages que vous connaissez</p>
-          <label for="chk-html"></label>HTML
-          <input type="checkbox" name="" id="chk-css" />
-          <label for="chk-css"></label>CSS
-          <input type="checkbox" name="" id="chk-css" />
+          <label for="5">5 ans et moin<input type="checkbox" name="0" id="5"></label>
+          <label for="10">10 ans<input type="checkbox" name="0" id="10"></label>
+          <label for="11"> 10 ans a 15<input type="checkbox" name="0" id="11"></label>
+          <label for="15">15 ans et plus<input type="checkbox" name="0" id="15"></label>
         </div>
       </form>
     </section>
@@ -59,64 +70,193 @@
       <h1>galerie</h1>
       <figure class="fig__galerie">
         <figure>
-          <img src="images/1.jpg" alt="college" />
-          <figcaption>Lorem ipsum dolor</figcaption>
+          <img src="images/pele.jpg" alt="pele" />
+          <figcaption>pele</figcaption>
         </figure>
         <figure>
-          <img src="images/.jpg" alt="college" />
-          <figcaption>Lorem ipsum dolor</figcaption>
+          <img src="images/03.jpg" alt="ronalodo" />
+          <figcaption>ronaldo</figcaption>
         </figure>
+      
+      <figure>
+        <img src="images/04.jpg" alt="Klose" />
+        <figcaption>Klose</figcaption>
       </figure>
+      <figure>
+        <img src="images/5.jpg" alt="Muller" />
+        <figcaption>Muller</figcaption>
+      </figure>
+      <figure>
+        <img src="images/06.jpg" alt="CR7" />
+        <figcaption>CR7</figcaption>
+      </figure>
+      <figure>
+        <img src="images/08.jpg" alt="messi" />
+        <figcaption>messi</figcaption>
+      </figure>
+    </figure>
     </section>
-    <!--////////////////////////////////////////////tableau-->
+    <!--////////////////////////////////////////////tableau----------------------------------------------------------->
 
     <!-- table>(tr>(td>lorem2)*3)*4-->
     <section id="Tableau">
-      <h1>Tableau</h1>
+      <h1>meilleur buteur</h1>
       <table>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Error, facere!</td>
-          <td>Iste, architecto.</td>
+          <td>Miroslav, Klose</td>
+          <td>but</td>
+          <td>16</td>
+          <td>match</td>
+          <td>24</td>
+          <td>pays</td>
+          <td>Allemagne</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Architecto, dolore.</td>
-          <td>Odio, tempora?</td>
+          <td>ronaldo</td>
+          <td>but</td>
+          <td>15</td>
+          <td>match</td>
+          <td>19</td>
+          <td>pays</td>
+          <td>Brésil</td>
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Eius, corrupti!</td>
-          <td>Praesentium, totam.</td>
+          <td>Gerd, Muller</td>
+          <td>but</td>
+          <td>14</td>
+          <td>match</td>
+          <td>13</td>
+          <td>pays</td>
+          <td>Allemagne</td>
+          
         </tr>
         <tr>
-          <td>Lorem, ipsum.</td>
-          <td>Aperiam, eaque.</td>
-          <td>Delectus, natus.</td>
+          <td>Pelé</td>
+          <td>but </td>
+          <td>12</td>
+          <td>match</td>
+          <td>14</td>
+          <td>pays</td>
+          <td>Brésil</td>
+        </tr>
+        <tr>
+          <td>Cristiano Ronaldo</td>
+          <td>but </td>
+          <td>29</td>
+          <td>match</td>
+          <td>40</td>
+          <td>pays</td>
+          <td>Portugal</td>
+        </tr>
+        <tr>
+          <td>Lionel Messi</td>
+          <td>but </td>
+          <td>11</td>
+          <td>match</td>
+          <td>25</td>
+          <td>pays</td>
+          <td>Argentine</td>
+          
+        </tr>
+        <tr>
+          <td>Kylian Mbappé</td>
+          <td>but </td>
+          <td>9</td>
+          <td>match</td>
+          <td>19</td>
+          <td>pays</td>
+          <td>France</td>
         </tr>
       </table>
     </section>
+    <!--====================================Article------------------------------------>
 
-    <section id="evenement">
-      <h1>evenement</h1>
+    <section id="article">
+      <h1>article</h1>
+      <figure class="article">
+        <figure>
+          <img src="images/09.jpg" alt="l'euro" />
+          <p>Le Championnat d'Europe de l'UEFA de football 2024 est la 17e édition du Championnat d'Europe de football, 
+            communément abrégé en Euro 2024, 
+            compétition organisée par l'UEFA et rassemblant les meilleures équipes nationales masculines européennes.</p>
+        </figure>
+
+        <figure>
+          <img src="images/07.jpg" alt="coupe du monde" />
+          <p>La Coupe du monde de football 2026 est la 23e édition de la Coupe du monde de football masculin,
+             compétition organisée par la FIFA et qui réunit les meilleures sélections nationales. 
+             Elle se déroulera de juin à juillet 2026 et sera organisée conjointement par les États-Unis, 
+             le Canada et le Mexique1. Le projet était nommé « United 2026 ».</p>
+        </figure>
     </section>
+    <!-----------video------------------------------------------------>
     <section id="video">
       <h1>video</h1>
-      <div class="youtube">
-        <iframe
-          width="200"
-          height="200"
-          src="https://www.youtube.com/embed/L9Pt-U4cnMw"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        >
-        </iframe>
+      <div><iframe width="560" height="315" src="https://www.youtube.com/embed/Ntn1-SocNiY?controls=0" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8n5dJwWXrbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </section>
+    <!--------------footer------------->
     <section id="footer">
       <h1>pied de page</h1>
+      <div class="sociaux">
+        <!-----------description------------->
+        <dl>
+          <dt>TIM</dt>
+          <dd>département en multimédia</dd>
+          <dd>web</dd>
+          <dd>photoshop</dd>
+          <dd>CRÉATION VIDÉO</dd>
+        </dl>
+
+<!-----------images des reseau sociaux-------------------------------->
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=facebook&color=ffffff"
+          width="64"
+          height="64"
+          alt=""
+        />
+        <img
+        src="https://s2.svgbox.net/social.svg?ic=github&color=ffffff"
+        width="64"
+        height="64"
+        alt=""
+         />
+         <img
+         src="https://s2.svgbox.net/social.svg?ic=instagram&color=ffffff"
+         width="64"
+         height="64"
+         alt=""
+       />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=twitter&color=ffffff"
+            width="64"
+            height="64"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=youtube&color=ffffff"
+            width="64"
+            height="64"
+            alt=""
+          />
+         </div>
+
+         <form action="" class="recherche">
+          <input type="search" />
+          <img
+            src="https://s2.svgbox.net/materialui.svg?ic=search&amp;color=fff"
+            width="16"
+            height="16"
+          />
+          <!-----------texte a la fin du footer---------------------->
+        </form>
+        <h2>Adresse : 3800 R.| Sherbrooke E Montréal| QC H1X 2A2</h2>
+        <h3>Avis de confidentialité | Privacy Notice</h3>
     </section>
   </body>
 </html>

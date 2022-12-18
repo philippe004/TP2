@@ -1,0 +1,13 @@
+#accueil {
+    font-family: EASPORTS15 ;
+     background-color:rgb(255,234,128);
+     color: rgb(52, 63, 216);
+     display: flex;
+     flex-direction: column;
+       background-image: url("../images/futbol.jpg");
+       background-size: 100%;
+     justify-content: space-around;
+     background-repeat: no-repeat;
+     font-size: 0.1rem;
+     font-size: clamp(0.1rem, -0.9rem + 50vw, 1.1rem);
+   }

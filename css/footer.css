@@ -1,0 +1,44 @@
+#footer {
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    flex-direction: column;
+  }
+  footer dl {
+    background-color: rgb(40 40 40 / 50%);
+    padding: 4%;
+  }
+  
+  footer dt {
+    font-size: 25px;
+    display: flex;
+    
+  }
+  
+  footer dd {
+    font-size: small;
+    padding: 15px 0 0 0;
+    margin: 0;
+  }
+  footer .util {
+    flex: 0 1 30%;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 25px;
+  }
+  .sociaux {
+    padding: 15px;
+  }
+  
+  .sociaux img {
+    padding: 5px;
+  }
+  #footer h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }

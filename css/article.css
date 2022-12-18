@@ -1,0 +1,9 @@
+#article{
+background-image: url("../images/futbol.jpg");
+
+}
+#article p{
+    display: flex;
+    justify-content: space-between;
+
+}

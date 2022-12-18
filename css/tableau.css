@@ -15,3 +15,7 @@
   background-color: rgba(0, 0, 0, 0.1);
   /*pour rendre le noir*/
 }
+#tableau{
+  background-image: url("../images/01.jpg");
+}
+

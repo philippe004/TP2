@@ -1,0 +1,38 @@
+.formulaire {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justif;
+    flex-direction: column;
+  }
+  .formulaire label {
+    margin: 10px 0 0 0;
+    border: 1px solid rgb(255,234,128);
+    background-color:rgb(5, 10,34);
+    padding: 5px;
+  }
+  /* ne s`applique que sur <input type = ­­"label"*/
+  .formulaire input[text] {
+    width: 200px;
+    padding: 10px;
+  }
+  /* ne s`applique que sur <input type = ­­"checkbox"*/
+  
+  .formulaire input[checkbox] {
+    padding: 5px;
+  }
+  .langage {
+    padding: 10px 0;
+   
+  }
+  .langage label {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #inscription {
+    background-color: rgb(231, 221, 171);
+    color: white;
+    display: flex;
+    align-items: flex-start;
+  }

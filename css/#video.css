@@ -1,5 +1,13 @@
 .youtube {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-between;
+
+  flex-direction: column;
+
+   
 }
+#video {
+  background-color:rgb(5, 10,34);
+  color: white; 
+   
+} 
